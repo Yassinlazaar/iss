@@ -32,9 +32,16 @@ export default {
 <style>
 :root {
   background: #E7F2F9;
-  
 }
-
+img{
+  margin-top: 100px;
+}
+.searchbar{
+  margin: 0auto;
+  position: absolute;
+    top: 10px;
+    right: 250px;
+}
 
 
 </style>

@@ -3,14 +3,25 @@
   <h1>
   Communities
   </h1>
+<table>
+  <tr>
+    <th><h2>Comm.ID</h2></th>
+    <th><h2>Name</h2></th>
+     <th><h2>Org.n°</h2></th>
+     </tr>
 
- <h2>ID  </h2>
- <h2> name  </h2>
- <h2> org n° </h2>
+   <tr>
+    <th><h3>1</h3></th>
+    <th><h3>SAMA PARTNERS</h3></th>
+     <th><h3>3</h3></th>
+     </tr>
 
-  
-
-
+     <tr>
+    <th><h3>2</h3></th>
+    <th><h3>SMU</h3></th>
+     <th><h3>1</h3></th>
+     </tr> 
+</table>
   
 </template>
 
@@ -34,10 +45,23 @@ h1{
   background: #E7F2F9;
 }
 h2{
-  margin-top: 120px;
-  background:#D9EAF4 ;
-  
+  margin-top: 1px;
+  font-weight: bold;
+}
+h3{
+  margin-top: 1px;
   font-weight: normal;
+}
+
+
+table, td, th {
+  border: 1px solid;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 h1{

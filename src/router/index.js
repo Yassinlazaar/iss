@@ -3,10 +3,6 @@ import Home from '../views/Home.vue'
 
 
 
-
-
-
-
 const routes = [
   {
     path: '/',
@@ -34,7 +30,7 @@ const routes = [
     name: 'Organisations',
     component: () => import('../views/Organisations.vue')
   },
-
+  
   {
     path: '/about',
     name: 'About',
@@ -48,4 +44,6 @@ const router = createRouter({
   routes
 })
 
+
 export default router
+

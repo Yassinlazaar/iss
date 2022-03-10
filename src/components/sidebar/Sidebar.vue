@@ -38,7 +38,7 @@ export default {
     <SidebarLink to="/organisations" icon="fas fa-image">
       Organisations
     </SidebarLink>
-
+    
     <span
       class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"

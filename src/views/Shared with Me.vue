@@ -1,23 +1,18 @@
 <template>
   <h1>
-    Data 1
+    Shared data with you : 
   </h1>
 
-  <h1>
-   Data 2
-  </h1>
 
-  <h1>
-    Data 3
-   
-  </h1>
+  
+<h2>data</h2>
+  <h2>color</h2>
+  
+ <h2> data type </h2>
+  
 
-<h1>
-    Data 4
-    
-  </h1>
 
-  <button @click="toggleSidebar">submit</button>
+  
 </template>
 
 <script>
@@ -31,15 +26,25 @@ export default {
 </script>
 <style>
 h1{
-  color: rgb(255, 0, 64);
+  color: rgb(13, 61, 94);
   margin-top: 5%;
 
 }
 
 :root {
   background: #E7F2F9;
-  
 }
+h2{
+  margin-top: 120px;
+  background:#D9EAF4 ;
+  
+  font-weight: normal;
+}
+
+h1{
+  margin-top: 150px;
+}
+
 
 
 </style>

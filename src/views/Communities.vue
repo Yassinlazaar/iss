@@ -1,13 +1,17 @@
+
 <template>
   <h1>
-    this is the page where i will put my shared data
-    {{ collapsed ? 'closed' : 'open' }}
+  Communities
   </h1>
-  <h1>
-    this is the page where i will put my shared data
-    {{ collapsed ? 'closed' : 'open' }}
-  </h1>
-  <button @click="toggleSidebar">Toggle Sidebar</button>
+
+ <h2>ID  </h2>
+ <h2> name  </h2>
+ <h2> org n° </h2>
+
+  
+
+
+  
 </template>
 
 <script>
@@ -20,8 +24,26 @@ export default {
 }
 </script>
 <style>
-:root {
-  background:  #E7F2F9;
-  
+h1{
+  color: rgb(13, 61, 94);
+  margin-top: 5%;
+
 }
+
+:root {
+  background: #E7F2F9;
+}
+h2{
+  margin-top: 120px;
+  background:#D9EAF4 ;
+  
+  font-weight: normal;
+}
+
+h1{
+  margin-top: 150px;
+}
+
+
+
 </style>

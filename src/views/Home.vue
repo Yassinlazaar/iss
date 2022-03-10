@@ -1,7 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+
+    <img alt="Vue logo" src="../assets/logo.png"  />
+
     <HelloWorld msg="Welcome in your threat sharing platform" />
+    
+    <form class="searchbar">
+    <div class="searchbar-input">
+    <input type="search" placeholder="Search ">
+    <a href="#" class="searchbar-clear"></a>
+    </div>
+  
+</form>
+   
   </div>
 </template>
 
@@ -23,4 +34,7 @@ export default {
   background: #E7F2F9;
   
 }
+
+
+
 </style>

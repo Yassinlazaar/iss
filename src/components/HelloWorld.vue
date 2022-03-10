@@ -14,11 +14,17 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to the threat information platform
         </h1>
-
+        
+        <img alt="Vue logo" src="../assets/logo1.png"   />
+        <h2> text1 </h2>
+        <img alt="Vue logo" src="../assets/logo1.png"   />
+        <h2> text2 </h2>
+        <img alt="Vue logo" src="../assets/logo1.png"   />
+        <h2> text3 </h2>
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
           <br />
-          please join our online
+         
          
         </p>
       </v-col>
@@ -81,4 +87,16 @@ export default {
   })
 }
 </script>
+<style scoped>
+img{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-top: 70px;
+  background:  #E7F2F9;
+
+
+}
+
+</style>
 

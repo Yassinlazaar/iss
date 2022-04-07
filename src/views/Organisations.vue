@@ -1,7 +1,7 @@
 
 <template>
   <h1>
-  Communities : 
+  Organisation : 
   </h1>
 <table>
   <tr>
